@@ -9,7 +9,7 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <stdio.h>
 
 int main() {
-    
+   
     // var declation
     float a;
     float b;
@@ -22,7 +22,7 @@ int main() {
     result = a / b;
     
     // output result
-    printf("quotient = a / b = %.2f", result);
+    printf("%.2f / %.2f = %.2f", result, a, b);
 
     return 0;
 }
