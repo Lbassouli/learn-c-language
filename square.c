@@ -21,7 +21,7 @@ int main() {
     result = a * a;
     
     // output result
-    printf("square = a * a = %.1f", result);
+    printf("%.2f^2 = %.2f ", a, result);
 
     return 0;
 }
