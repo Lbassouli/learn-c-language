@@ -1,15 +1,6 @@
-/******************************************************************************
-
-                            Online C Compiler.
-                Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <stdio.h>
 
-int main()
-{
+int main() {
     // var declaration
     float userInput;
     
@@ -24,8 +15,6 @@ int main()
     } else {
         printf("%.2f is equal to 5", userInput);
     }
-    
-    
 
     return 0;
 }
